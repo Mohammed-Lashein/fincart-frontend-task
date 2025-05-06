@@ -1,4 +1,4 @@
-import { CartIcon } from "../icons"
+import Button from './Button'
 function Navbar() {
 	return (
 		<div className='w-full px-10 py-3 flex justify-between align-center'>
@@ -20,9 +20,8 @@ function Navbar() {
 			</div>
 
 			{/* cart icon */}
-			<button>
-				<CartIcon />
-			</button>
+			<Button icon={'/shopping-bag.svg'} iconDescription={'shopping bag'}/>
+
 		</div>
 	)
 }
