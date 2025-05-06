@@ -6,3 +6,8 @@ Here I will try to follow best practices of writing code . The main points that 
 3. Mock network requests using miragejs (This will be my first time to use it )
 4. Use **MaterialUI (MUI)** for creating the components as mentioned in the description 
 5. Create a responsive design with the help of **tailwindcss**
+
+____
+## Some notes about the project : 
+
+1. The svgs are from [heroicons.com](heroicons.com)
