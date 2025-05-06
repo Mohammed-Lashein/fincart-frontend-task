@@ -1,3 +1,13 @@
+/* 
+	This component is really a good one . 
+	It provides a more clickable space while also preserving the visual aspect of the icon
+	(no need to make it bigger unnecessarily just to make it more clickable)
+
+	I followed the conventions present in this free 5-day workshop by tailwindcss : 
+	https://tailwindcss.com/build-uis-that-dont-suck
+
+*/
+
 function Button({ icon, iconDescription, onClick = () => {} }) {
 	return (
 		<button
